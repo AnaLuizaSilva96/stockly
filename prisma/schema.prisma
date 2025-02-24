@@ -16,11 +16,11 @@ datasource db {
 model Product {
   id          String        @id @default(uuid())
   name        String
-  Price       Decimal       @db.Decimal(10, 2)
+  price       Decimal       @db.Decimal(10, 2)
   stock       Int
   createdAt   DateTime      @default(now())
   updatedAt   DateTime      @updatedAt
-  SaleProduct SaleProduct[]
+  saleProduct SaleProduct[]
 }
 
 model Sale {

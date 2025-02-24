@@ -2,8 +2,8 @@
 
 import { usePathname } from "next/navigation";
 import { LayoutGrid, PackageIcon, ShoppingBasketIcon } from "lucide-react";
-import { Button } from "../ui/button";
 import Link from "next/link";
+import { Button } from "../button";
 
 type MenuItem = {
   label: string;
