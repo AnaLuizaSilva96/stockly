@@ -15,12 +15,12 @@ const MenuItem = () => {
   const pathname = usePathname();
 
   const menuItems: MenuItem[] = [
-    { label: "Products", icon: <PackageIcon size={20} />, href: "/products" },
     {
       label: "Dashboard",
       icon: <LayoutGrid size={20} />,
       href: "/",
     },
+    { label: "Products", icon: <PackageIcon size={20} />, href: "/products" },
     {
       label: "Sales",
       icon: <ShoppingBasketIcon size={20} />,
